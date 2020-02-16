@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* Main structual styles */
+
+html {
+	background-image: url(RusticSpoon_NoBackground.jpg);
+	background-color: black;
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1020px;
+	width: 100%;
+	color: black;
+	background-color: gray;
+	background-image: radial-gradient(white, gray, black);
+}
+
+
+/* Nav Bar */
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  }
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Engravers MT";
+}
+
+ul.topnav li a:hover:not(.active) {background-color: gray; color:#9D0000;}
+
+ul.topnav li a.active {background-color: #9D0000;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+h3{
+		font-family: "Engravers MT";
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+footer{
+
+	color:white;
+	font-family: "Engravers MT";
+}
+}
