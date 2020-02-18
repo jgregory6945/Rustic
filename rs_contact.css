@@ -49,8 +49,23 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+h4{
+	font-family: "Engravers MT";
+}
 h3{
 		font-family: "Engravers MT";
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .center {
   display: block;
