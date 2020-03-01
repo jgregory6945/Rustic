@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* Main structual styles */
+
+.parallax {
+  /* The image used */
+  background-image: url("rustic pic2.jpg");
+
+  /* Set a specific height */
+  height: 350px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 100%;
+	color: black;
+ background-color: #f5f5f5;
+}
+
+/* Nav Bar */
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  }
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Engravers MT";
+}
+
+ul.topnav li a:hover:not(.active) {background-color: gray; color:#9D0000;}
+
+ul.topnav li a.active {background-color: #9D0000;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+h4{
+	font-family: "Engravers MT";
+	  text-shadow: 0 0 3px gray, 0 0 5px white;
+
+}
+h1{
+		font-family: "Engravers MT";
+			  text-shadow: 0 0 3px red, 0 0 5px green;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+footer{
+	  text-shadow: 0 0 3px gray, 0 0 5px white;
+text-align: center;
+	color:black;
+	font-family: "Engravers MT";
+	
+}
